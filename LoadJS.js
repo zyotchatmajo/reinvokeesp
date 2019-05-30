@@ -135,7 +135,7 @@ function autocomplete(inp, arr) {
 }
 
 
-var countries = ["Kaneki Ken", "Touka Kirishima", "Nishiki Nishio", "Tsukiyama Shu", "Hinami Fueguchi",
+var Characters = ["Kaneki Ken", "Touka Kirishima", "Nishiki Nishio", "Tsukiyama Shu", "Hinami Fueguchi",
     "Ryoko Fueguchi", "Banjou Kazuichi", "Yomo Renji", "Uta", "Koma Enji", "Irimi Kaya",
     "Ayato Kirishima", "Yamori", "Naki", "Kurona Yasuhisa", "Nashiro Yasuhisa", "Rize Kamishiro",
     "Amon Kohtaro", "Akira Mado", "Kureo Mado", "Suzuya Juzo", "Shinohara Yukinori", "Kuroiwa Iwao", "Haise Sasaki", "Buho de un Ojo",
@@ -144,7 +144,7 @@ var countries = ["Kaneki Ken", "Touka Kirishima", "Nishiki Nishio", "Tsukiyama S
     "Furuta Nimura"
 ];
 
-autocomplete(document.getElementById("myInput"), countries);
+autocomplete(document.getElementById("myInput"), Characters);
 
 async function setImage(id){
     var storage = firebase.storage();
